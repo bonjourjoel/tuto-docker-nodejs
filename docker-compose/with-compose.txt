@@ -1,0 +1,9 @@
+
+START
+docker-compose -f C:\dev\tutos-job\tuto-docker-nodejs\docker-compose\mongo-services.yaml up -d
+
+STOP
+docker-compose -f C:\dev\tutos-job\tuto-docker-nodejs\docker-compose\mongo-services.yaml stop
+
+DELETE
+docker-compose -f C:\dev\tutos-job\tuto-docker-nodejs\docker-compose\mongo-services.yaml down
